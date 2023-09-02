@@ -1,156 +1,74 @@
-*{padding: 0; margin: 0;box-sizing: border-box;}
-/*font-family: Poppins', sans-serif;*/
-/*font-family: ;*/
-header{
-    width: 100%;;
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
-    url('sabri-tuzcu-wunVFNvqhfE-unsplash.jpg');
-    background-size: cover;
+*{padding:0; margin:0; box-sizing:border-box; font-family: sans-serif;}
+/*font-family: 'Dancing Script', cursive;*/
+.nav1{
+    width: 100%;
+    height: 50px;
     color: white;
+    background:#222f3e ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin: 0,5px;
 
 }
-nav{
-    width:100% ;
-    height:100px ;
-    background:rgb(218, 80, 126);
-    display: flex;
-    justify-content:space-between ;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 70px;
-    font-family: 'Poppins', sans-serif; 
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: green;
+
 }
-.logo{
-   font:3em ;
-   letter-spacing: 2px;
-   font-weight:bold ; 
+.nav2{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px
+    px;
+
 }
 .menu a{
-    text-decoration:none ;
-    color:white ;
-    font-size:1.2em ;
-    padding:.5rem 1rem ;
-}
-.menu i{
-    font-size: 1.5rem;
-    margin: 0 0.5rem;
-    cursor: pointer;}
+   text-decoration: none;
+   color:black;
+   padding: 10px 20px;}
 
-.menu a:hover{
-    background:blueviolet;
-    border-radius: 8px;
-
-}
-.container{
+header{
     width: 100%;
-    height: 100%;
-    display:flex ;
-    justify-content: space-around;
-    align-items:center ;
-    flex-wrap:wrap ;
-    padding: 0 70px;
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('Screenshot 2023-08-28 034100.png');
+    background-size: 100% 100%;
 }
-.left{
-    flex-basis: 60%;
-
-}
-
-.right{
-    flex-basis: 30%;
-}
-
-.left h2{
-    font-family: ' Poppins', sans-serif;
-    color:rgba(218,80,126);
-}
-.left h1{
-    font-family:'Kalam', cursive;
-    font-size: 3em;
-}
-#hire{
-    text-decoration:none ;
-    background:rgb(190, 33, 143);
-    color:white ;
-    padding:1rem 2rem ;
-    border-radius: 8px;
-    font-size: 1rem;
-    margin: 0 1rem;
-
-
-
-}
-#myp{
-text-decoration:none ;
-    background:rgb(190, 33, 143);
-    color:white ;
-    padding:1rem 2rem ;
-    border-radius: 8px;
-    font-size: 1rem;
-    margin: 0 1rem;
-}
-#bio{
-cursor: pointer;
-width: 100%;
-height: 100%;
-display:flex ;
-justify-content: space-around;
-align-items:flex-start;
-flex-wrap:wrap ;
-padding:150px 70px;
-font-family: 'Poppins', sans-serif; 
-
-
-} 
-.leftbio{
-    flex-basis: 40%;
-}
-.rightbio{
-    flex-basis: 60%;
-}
-.leftbio img{
-    width: 100%;
-    height: 500px;
-    border-radius: 8px;
-}
-.rightbio{
-    text-align: right;
-    padding: 0 40px;
-}
-.rightbio p{
-    margin:15px 0 ;
-    line-height:2.5rem ;
-}
-.rightbio h1{
-    font-size: 2.5rem;
-}
-.info{
-    display: flex;
-    justify-content: space-around;
-    align-items:flex-start ;
-    flex-wrap:wrap ;
-    text-align: left;
-}
-#follow{
+.h-text{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translet(-50% ,-50%);
     text-align: center;
-}
-#follow i{
-    color: blueviolet ;
-    font-size:1.5rem ;
-    margin:0 0.5rem ;
+
 
 }
-.link-h{
-    text-align: center;
-    margin-top: 3rem;
-
+.h-text h1{
+    font: 1em;
+font-family: 'Dancing Script', cursive;
 }
-#Cv{
-text-decoration:none ;
- color:blueviolet ;
-    padding:1rem 2rem ;
-    border-radius: 7px;
-    font-size: 1.5rem;
-    margin: 0 1rem;
-    border: 1px dashed grey;
+
+.h-text span{
+    color: #e67e22;
+    font-family: 'Dancing Script', cursive;
+}
+.h-text a{
+    text-decoration: none;
+    color:white;
+    background: #e67e22;
+    padding: 5px 10px;
+    margin: 0px 15px;
+    letter-spacing: 5px;
+
 }
